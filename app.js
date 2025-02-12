@@ -28,10 +28,17 @@ app.use('/', indexR);
 app.use('/users', usersR);
 
 
+// mongoose
+//   .connect("mongodb://localhost:27017/gametritue", {
+//   })
+//   .then(() => console.log("Connected to MongoDB"))
+//   .catch((err) => console.log(err));
 mongoose
-  .connect("mongodb://localhost:27017/gametritue", {
-  })
-  .then(() => console.log("Connected to MongoDB"))
+  .connect(
+    "mongodb+srv://isorahoang:1RbAsjVWJ615uVt9@reactapi.c3jg9um.mongodb.net/",
+    {}
+  )
+  .then(() => console.log("Connected to MongoDB online"))
   .catch((err) => console.log(err));
 
 // catch 404 and forward to error handler
