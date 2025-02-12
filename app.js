@@ -35,7 +35,7 @@ app.use('/users', usersR);
 //   .catch((err) => console.log(err));
 mongoose
   .connect(
-    "mongodb+srv://isorahoang:1RbAsjVWJ615uVt9@reactapi.c3jg9um.mongodb.net/",
+    "mongodb+srv://isorahoang:1RbAsjVWJ615uVt9@reactapi.c3jg9um.mongodb.net/gametritue",
     {}
   )
   .then(() => console.log("Connected to MongoDB online"))
