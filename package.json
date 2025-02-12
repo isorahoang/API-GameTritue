@@ -1,0 +1,22 @@
+{
+  "name": "api-gym",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "code": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongoose": "^8.10.0",
+    "mongose": "^0.0.2-security",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.9"
+  }
+}
